@@ -1,1 +1,49 @@
 /*  your css code here. If applicable */
+body{
+	background-color: #f5f5f5;
+	margin:0;
+	padding:0;
+	font-family:Arial, sans-serif;
+}
+.header{
+	color:white;
+	text-align:center;
+	padding:15px;
+	background-color: #011e29;
+}
+.container{
+	display:flex;
+	justify-content:space-between;
+	margin:20px;
+}
+.latest-new-section{
+	background-color:white;
+	width:20%;
+	padding:15px;
+	border-radius:8px;
+}
+.latest-new-section li{
+	margin:8px 0;
+}
+.main-article {
+  width: 45%;
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: justify;
+}
+
+/* Pictorial News Section */
+.pictorial-news-section {
+  width: 20%;
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.pictorial-news-section img {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
